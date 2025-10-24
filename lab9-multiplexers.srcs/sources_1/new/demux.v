@@ -8,8 +8,8 @@ module demux(
    output [3:0] ribshack
     );
     
-    assign local_lib = Enable ? (Sel == 2'b00 ? In : 0): 0;
-    assign fire_dept = Enable ? (Sel == 2'b01 ? In : 0): 0;
-    assign school = Enable ? (Sel == 2'b10 ? In : 0): 0;
-    assign ribshack = Enable ? (Sel == 2'b11 ? In : 0): 0;
+    assign local_lib = Enable ? (Sel == 2'b00 ? In : 4'd0): 4'd0;
+    assign fire_dept = Enable ? (Sel == 2'b01 ? In : 4'd0): 4'd0;
+    assign school = Enable ? (Sel == 2'b10 ? In : 4'd0): 4'd0;
+    assign ribshack = Enable ? (Sel == 2'b11 ? In : 4'd0): 4'd0;
 endmodule

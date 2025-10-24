@@ -5,6 +5,8 @@ module mux(
    output [3:0] Y
     );
     
-    assign Y = Enable ? ((Sel == 0) ? CEO : ((Sel == 1) ? You : ((Sel == 2) ? Fred : ((Sel == 3) ? Jill : 0)))) : 0;
+    assign Y =(Sel == 2'b00 && Enable) ? CEO :
+              (Sel == 2'b01 && Enable) ? You :
+              (Sel == 2'b10 && Enable) ? Fred :Jill;
     
 endmodule
