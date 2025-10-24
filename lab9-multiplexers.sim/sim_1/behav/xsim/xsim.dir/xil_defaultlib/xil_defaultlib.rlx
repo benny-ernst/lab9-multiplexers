@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/ECE230_46/Documents/lab9-multiplexers/lab9-multiplexers.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/ECE230_46/Documents/lab9-multiplexers/lab9-multiplexers.srcs/sources_1/new/demux.v,1761324109,verilog,,C:/Users/ECE230_46/Documents/lab9-multiplexers/lab9-multiplexers.srcs/sources_1/new/mux.v,,demux,,,,,,,,
+C:/Users/ECE230_46/Documents/lab9-multiplexers/lab9-multiplexers.srcs/sources_1/new/mux.v,1761323107,verilog,,C:/Users/ECE230_46/Documents/lab9-multiplexers/lab9-multiplexers.srcs/sources_1/new/top.v,,mux,,,,,,,,
+C:/Users/ECE230_46/Documents/lab9-multiplexers/lab9-multiplexers.srcs/sources_1/new/top.v,1761323870,verilog,,C:/Users/ECE230_46/Documents/lab9-multiplexers/test.v,,top,,,,,,,,
+C:/Users/ECE230_46/Documents/lab9-multiplexers/test.v,1761324967,verilog,,,,test,,,,,,,,
